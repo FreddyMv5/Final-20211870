@@ -1,0 +1,57 @@
+name: final_app
+description: "A new Flutter project."
+
+# Prevents the package from being accidentally published to pub.dev.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Version information
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  intl: ^0.17.0
+  image_picker: ^0.8.4+4
+  file_picker: ^4.3.3
+  path_provider: ^2.0.11
+  webview_flutter: ^3.0.0
+  provider: ^6.0.3
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/MINERD.png
+    - assets/fotopf.jpeg
+    - assets/cloduy.png
+    - assets/horoscopo/Virgo.jpg 
+    - assets/horoscopo/taurus.jpg
+    - assets/horoscopo/Sagitario.webp
+    - assets/horoscopo/Sagitario.jpg
+    - assets/horoscopo/Piscis.png
+    - assets/horoscopo/Libra.jpg
+    - assets/horoscopo/Geminis.jpg
+    - assets/horoscopo/Escorpio.jpeg
+    - assets/horoscopo/Capricornio.jpg
+    - assets/horoscopo/Cancer.jpg
+    - assets/horoscopo/Aries.jpg
+    - assets/horoscopo/Acuario.jpg
+    - assets/horoscopo/Leo.jpg
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  http: ^0.13.3
+  cached_network_image: ^3.2.0
+  webview_flutter: ^3.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/minerdlogo.png"
